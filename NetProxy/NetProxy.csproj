@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
+    <LangVersion>latest</LangVersion>
+    <AnalysisLevel>5</AnalysisLevel>
+    <TieredCompilation>true</TieredCompilation>
+    <UserSecretsId>fb531849-1a81-4159-bc02-169145d2fbd4</UserSecretsId>
+  </PropertyGroup>
+    
+  <ItemGroup>
+      <PackageReference Include="Hangfire.AspNetCore" Version="1.7.13" />
+      <PackageReference Include="Hangfire.Console" Version="1.4.2" />
+      <PackageReference Include="Hangfire.Heartbeat" Version="0.5.0" />
+      <PackageReference Include="Hangfire.JobsLogger" Version="0.2.1" />
+      <PackageReference Include="Hangfire.MemoryStorage" Version="1.7.0" />
+      <PackageReference Include="Hangfire.RecurringJobAdmin" Version="0.1.6" />
+  </ItemGroup>
+
+</Project>
